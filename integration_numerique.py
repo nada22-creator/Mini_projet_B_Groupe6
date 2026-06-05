@@ -84,6 +84,7 @@ def calcul_erreur(exact, numerique):
         L'écart absolu (valeur toujours positive) servant à l'analyse de convergence.
     """
     # La fonction native abs() élimine le signe pour obtenir une grandeur d'erreur pure
+
     return abs(exact - numerique)
 
 
